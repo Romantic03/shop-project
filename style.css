@@ -48,6 +48,7 @@ li {
     width: 25%;
     float: left;
     border-left: 1px solid #2c71b8;
+    position: relative;
 }
 
 .menu li:last-child {
@@ -67,4 +68,50 @@ li {
 .menu a:hover {
     background-color: #2c71b8;
     color: white;
+}
+
+form {
+    float: left;
+    display: block;
+    border: 1px solid #2c71b8;
+    width: 200px;
+    height: 40px;
+}
+
+input {
+    width: 154px;
+    background: transparent;
+    border: none;
+    height:38px;
+}
+
+.submit {
+    border: none;
+    width: 30px;
+    height: 30px;
+    background-color: #2c71b8;
+    margin: 5px;
+}
+
+::placeholder {
+    color: #2c71b8;
+    padding-left: 20px;
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;;
+}
+
+.cart {
+    border: none;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    line-height: 40px;
+}
+
+.marcet {
+    padding: 10px;
+}
+
+.col-md-9 {
+    width: 75%;
 }
