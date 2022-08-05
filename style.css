@@ -70,52 +70,6 @@ li {
     color: white;
 }
 
-form {
-    float: left;
-    display: block;
-    border: 1px solid #2c71b8;
-    width: 200px;
-    height: 40px;
-}
-
-input {
-    width: 154px;
-    background: transparent;
-    border: none;
-    height:38px;
-}
-
-.submit {
-    border: none;
-    width: 30px;
-    height: 30px;
-    background-color: #2c71b8;
-    margin: 5px;
-}
-
-::placeholder {
-    color: #2c71b8;
-    padding-left: 20px;
-    font-size: 21px;
-    font-family: 'Roboto', sans-serif;;
-}
-
-.cart {
-    border: none;
-    width: 40px;
-    height: 40px;
-    background-color: white;
-    line-height: 40px;
-}
-
-.marcet {
-    padding: 10px;
-}
-
-.col-md-9 {
-    width: 75%;
-}
-
 .menu ul {
     display: none;
     position: absolute;
@@ -153,4 +107,98 @@ input {
 .dropdaun a:hover{
     background-color: white;
     color: #2c71b8;
+}
+
+.col-md-9 {
+    width: 75%;
+}
+
+.form-search {
+    height: 50px;
+    width: 100%;
+}
+
+.form {
+    border: 1px solid #2c71b8;
+    height: 40px;
+    position: absolute;
+    width: 195px;
+    top: 30px;
+}
+
+.input-changes {
+    width: 80%;
+    background: 0 none !important;
+    outline: none !important;
+    border: none;
+    position: relative;
+    font-size: 21px;
+    height: 30px;
+    color: #2c71b8;
+    left: 5px;
+    bottom: 3px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.search {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    bottom: 4px;
+    top: 4px;
+    background-image: url(images/icon\ \(4\).png);
+    background-color: #2c71b8;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+::placeholder {
+    color: #2c71b8;
+    margin-right: 15px;
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cart {
+    background-image: url(images/bin.png);
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 5px;
+}
+
+.product-cart {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #2c71b8;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #2c71b8;
+    color: white;
+    line-height: 20px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+#cart {
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+
+.slaider {
+    width: 100%;
+    height: 400px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    background-color: #235a9370;
+    text-align: center;
+    line-height: 400px;
+    font-size: 50px;
 }
