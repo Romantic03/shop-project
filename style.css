@@ -207,7 +207,71 @@ li {
 .filter {
     height: 844px;
     border-right: 1px solid white;
+    cursor: pointer;
+    padding: 30px;
+    font-size: 21px;
+    color: white;
+    background-color: #568dc6b5;
 }
+
+.filter li {
+    float: none;
+    width: auto;
+    border: none;
+}
+
+.divace-type{
+    padding-bottom: 45px;
+}
+.color-divace{
+    padding-bottom: 50px;
+}
+.ram-divace{
+    padding-bottom: 20px;
+}
+.filter ul li{
+    padding-bottom: 19px;
+}
+
+.show-option{
+    padding-left: 15px;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 10px;
+}
+.btn-submit{
+    background-color: #2c71b8;
+    border: 1px solid white;
+}
+.filter li label{
+    cursor: pointer;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+label{
+    padding-left: 12px;
+}
+label::before{
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid white;
+    vertical-align: middle;
+    margin-left: -10px;
+    margin-right: 10px;
+}
+input[type="checkbox"]:checked + label::before{
+    background-color: white;
+}
+
+.bold-divace {
+    font-weight: bold;
+}
+
 
 .bredcrums {
     margin-top: 30px;
